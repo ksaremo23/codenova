@@ -1,4 +1,4 @@
-# VirtualR - Fully Responsive Landing Page
+# CodeNova - Fully Responsive Landing Page
 
 A modern, fully responsive landing page built with React and Tailwind CSS. This project features a beautiful UI with smooth animations, mobile-first design, and optimized performance.
 
