@@ -187,7 +187,7 @@ const Contact = () => {
               Book your free video audit
             </p>
             <a
-              href="https://calendly.com/your-username"
+              href="https://calendly.com/ksaremo1/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-6 rounded-lg hover:from-orange-600 hover:to-orange-900 transition-all duration-200 font-medium"
