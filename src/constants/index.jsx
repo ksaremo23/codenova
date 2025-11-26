@@ -9,8 +9,10 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Services", href: "#services" },
+  { label: "AI Services", href: "#ai-services" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Pricing", href: "#pricing" },
+  { label: "Blog", href: "#blog" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -197,23 +199,23 @@ export const pricingOptions = monthlyPlans;
 
 export const resourcesLinks = [
   { href: "#services", text: "Services" },
+  { href: "#ai-services", text: "AI Solutions" },
   { href: "#portfolio", text: "Portfolio" },
-  { href: "#pricing", text: "Pricing" },
   { href: "#contact", text: "Contact" },
 ];
 
 export const platformLinks = [
   { href: "#services", text: "AI Website Building" },
   { href: "#services", text: "Chatbot Integration" },
-  { href: "#services", text: "Website Maintenance" },
-  { href: "#pricing", text: "View Pricing" },
+  { href: "#ai-services", text: "Automation Consulting" },
+  { href: "#blog", text: "Insights" },
 ];
 
 export const communityLinks = [
   { href: "#contact", text: "Book a Call" },
   { href: "#portfolio", text: "Case Studies" },
-  { href: "#", text: "Blog" },
-  { href: "#", text: "Resources" },
+  { href: "#blog", text: "Blog" },
+  { href: "#ai-services", text: "Resources" },
 ];
 
 // Target niches
@@ -225,4 +227,97 @@ export const niches = [
   "E-commerce",
   "SaaS Founders",
   "Local Service Providers",
+];
+
+export const aiServices = [
+  {
+    title: "AI Automation Playbooks",
+    summary: "Done-for-you automation audits, workflow mapping, and Zapier/Make builds tailored for Philippine SMBs.",
+    bullets: [
+      "Back-office automation & reporting",
+      "Sales pipeline enrichment",
+      "Custom CRM triggers",
+    ],
+  },
+  {
+    title: "Hybrid AI + Human Websites",
+    summary: "AI powered website builder process that combines React experts with AI-generated sections for speed.",
+    bullets: [
+      "AI-assisted copy & graphics",
+      "Component library tuned for conversion",
+      "Performance monitoring & fixes",
+    ],
+  },
+  {
+    title: "AI Chatbot Operations",
+    summary: "Multilingual chatbots pre-trained on your knowledge base to qualify leads and book demos 24/7.",
+    bullets: [
+      "Flows for sales, support, and FAQ",
+      "Analytics dashboard",
+      "Human handoff alerts",
+    ],
+  },
+  {
+    title: "Data & Analytics Co-Pilot",
+    summary: "Unified dashboards, metric explanations, and GPT-powered insights for founders and ops teams.",
+    bullets: [
+      "Auto-updated KPI reports",
+      "Slack/Email summaries",
+      "Predictive alerts",
+    ],
+  },
+];
+
+export const chatbotBenefits = [
+  {
+    title: "Convert More Visitors",
+    description:
+      "Personalized AI chatbot for small business nurtures every click, routes qualified leads, and books calls without waiting for office hours.",
+    stat: "32% more booked meetings",
+  },
+  {
+    title: "Reduce Support Volume",
+    description:
+      "Answer FAQs instantly across Facebook Messenger, website widgets, and WhatsApp while giving your team clean transcripts.",
+    stat: "45% fewer repetitive tickets",
+  },
+  {
+    title: "Boost E-commerce Sales",
+    description:
+      "Recommend bundles, recover abandoned carts, and upsell memberships using conversational AI tuned for Philippine shoppers.",
+    stat: "22% lift in average order value",
+  },
+  {
+    title: "Localize Across Markets",
+    description:
+      "Serve prospects in English, Filipino, or Taglish automatically, keeping tone and compliance consistent.",
+    stat: "100% bilingual coverage",
+  },
+];
+
+export const blogPosts = [
+  {
+    title: "Top 10 AI Tools for Small Businesses in 2025",
+    excerpt:
+      "From AI website builders to automation copilots, these tools help Philippine SMEs cut manual work in half.",
+    readTime: "6 min read",
+    tags: ["AI tools", "Small Business"],
+    url: "#",
+  },
+  {
+    title: "How AI Chatbots Increase Sales for Online Shops",
+    excerpt:
+      "Discover the exact flows we use to help Shopify and WooCommerce stores answer questions and upsell on autopilot.",
+    readTime: "5 min read",
+    tags: ["E-commerce", "Chatbots"],
+    url: "#",
+  },
+  {
+    title: "Best AI Automations for Real Estate in the Philippines",
+    excerpt:
+      "Qualify buyers, send property packs, and trigger follow-ups using low-cost automations built for local brokers.",
+    readTime: "7 min read",
+    tags: ["Real Estate", "Automation"],
+    url: "#",
+  },
 ];
