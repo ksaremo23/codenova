@@ -26,7 +26,7 @@ const Testimonials = () => {
                 <img
                   className="w-12 h-12 sm:w-14 sm:h-14 mr-4 rounded-full border-2 border-neutral-700 object-cover"
                   src={testimonial.image}
-                  alt={testimonial.user}
+                  alt={`${testimonial.user} AI agency Philippines success story`}
                 />
                 <div>
                   <h6 className="font-semibold text-base sm:text-lg">{testimonial.user}</h6>

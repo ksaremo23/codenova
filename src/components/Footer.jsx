@@ -53,13 +53,13 @@ const Footer = () => {
       </div>
       <div className="mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-neutral-800 text-center px-4">
         <div className="flex items-center justify-center gap-2 mb-4">
-          <img className="h-6 w-6" src={logo} alt="Logo" />
+          <img className="h-6 w-6" src={logo} alt="CodeNova AI agency Philippines icon" />
           <span className="text-base font-semibold">
             Code<span className="text-orange-500">Nova</span> AI
           </span>
         </div>
         <p className="text-sm sm:text-base text-neutral-500 mb-2">
-          AI-Powered Front-End Development Services
+          Taguig AI services, AI automation for business, and hire front-end developer Philippines retainers.
         </p>
         <p className="text-xs sm:text-sm text-neutral-600">
           © {new Date().getFullYear()} CodeNova AI. All rights reserved.

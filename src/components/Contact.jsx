@@ -61,10 +61,10 @@ const Contact = () => {
           </span>
         </h2>
         <p className="text-lg sm:text-xl lg:text-2xl text-neutral-300 max-w-3xl mx-auto mt-4 font-medium">
-          Request a free video audit of your current website.
+          Request a free video audit to plan AI automation for business, AI chatbot integrations, or a fresh AI powered website builder sprint.
         </p>
         <p className="text-neutral-400 max-w-2xl mx-auto mt-4 text-sm sm:text-base">
-          Book a free consultation or send us a message. We'll respond within 24 hours.
+          Book a consultation with our Taguig AI services team and hire front-end developer Philippines talent backed by automation strategists.
         </p>
       </div>
 

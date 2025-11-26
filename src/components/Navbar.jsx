@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto relative">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-8 w-8 sm:h-10 sm:w-10 mr-2" src={logo} alt="Logo" />
+            <img className="h-8 w-8 sm:h-10 sm:w-10 mr-2" src={logo} alt="CodeNova AI agency Philippines logo" />
             <span className="text-lg sm:text-xl tracking-tight font-semibold">
               Code<span className="text-orange-500">Nova</span> AI
             </span>

@@ -10,18 +10,18 @@ const HeroSection = () => {
         </span>
       </div>
       <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center tracking-wide font-bold leading-tight px-4">
-        AI-Powered Web Development That{" "}
+        AI Chatbot for Business Philippines &{" "}
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text block sm:inline">
-          Builds, Optimizes, and Grows
+          Taguig AI Services
         </span>
         <br className="hidden sm:block" />
-        <span className="block sm:inline">Your Business Faster</span>
+        <span className="block sm:inline">That Scale Your Company Faster</span>
       </h1>
       <p className="mt-6 sm:mt-8 lg:mt-10 text-lg sm:text-xl lg:text-2xl text-center text-neutral-300 max-w-4xl px-4 leading-relaxed font-medium">
-        Websites, chatbots, and automations delivered 2–5× faster using AI.
+        Websites, chatbots, and AI automation for business delivered 2–5× faster by a dedicated AI agency in Taguig—perfect for founders who need an AI powered website builder and on-demand Philippine experts.
       </p>
       <p className="mt-4 text-base sm:text-lg text-center text-neutral-400 max-w-3xl px-4">
-        Get a modern site that converts visitors into paying clients.
+        Hire front-end developer Philippines talent plus an automation team that keeps your funnels, bots, and marketing assets fresh.
       </p>
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 my-8 sm:my-10 px-4 w-full">
         <a

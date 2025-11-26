@@ -6,7 +6,7 @@ const WhatWeDo = () => {
           What We Do
         </span>
         <p className="text-lg sm:text-xl lg:text-2xl text-neutral-300 leading-relaxed">
-          We combine expert front-end development with AI automation to deliver high-quality websites faster, more efficiently, and more affordably than traditional agencies.
+          As a full-service AI agency Philippines team, we blend senior front-end developers in Taguig with AI automation for business so you get production-ready chatbots, websites, and growth systems that outperform traditional dev shops.
         </p>
       </div>
     </div>

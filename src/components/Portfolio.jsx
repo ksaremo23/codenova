@@ -48,13 +48,13 @@ const Portfolio = () => {
           Portfolio
         </span>
         <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center my-6 sm:my-8 tracking-wide font-bold">
-          Success Stories from{" "}
+          AI Agency Philippines Results for{" "}
           <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
             Real Clients
           </span>
         </h2>
         <p className="text-neutral-400 max-w-2xl mx-auto mt-4">
-          See how we've helped businesses across different industries build faster, smarter websites with AI automation.
+          See how we've helped Taguig AI services clients and global teams build faster, smarter websites with AI automation for business.
         </p>
       </div>
 

@@ -9,7 +9,7 @@ const Workflow = () => {
           Why Choose Us
         </span>
         <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center mt-6 tracking-wide font-bold">
-          Why Choose{" "}
+          Why Taguig Businesses Choose{" "}
           <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
             CodeNova AI
           </span>
@@ -19,7 +19,7 @@ const Workflow = () => {
         <div className="w-full lg:w-1/2 order-2 lg:order-1">
           <img 
             src={codeImg} 
-            alt="AI Automation" 
+            alt="Taguig AI services automation dashboard" 
             className="w-full h-auto rounded-lg border border-neutral-700 shadow-lg"
           />
         </div>

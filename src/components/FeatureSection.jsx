@@ -8,9 +8,9 @@ const FeatureSection = () => {
           Services
         </span>
         <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 sm:mt-8 lg:mt-12 tracking-wide font-bold">
-          Our{" "}
+          Taguig{" "}
           <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
-            Services
+            AI Services & Automation
           </span>
         </h2>
       </div>
@@ -19,18 +19,18 @@ const FeatureSection = () => {
           <div className="flex-shrink-0 flex h-16 w-16 p-3 bg-neutral-900 text-orange-500 justify-center items-center rounded-full border border-orange-500/20 mb-4">
             {features[0].icon}
           </div>
-          <h5 className="text-lg sm:text-xl font-semibold mb-2">AI Website Development</h5>
+          <h5 className="text-lg sm:text-xl font-semibold mb-2">AI Powered Website Builder</h5>
           <p className="text-sm sm:text-base text-neutral-400 leading-relaxed">
-            {features[0].description}
+            Launch or revamp your site with an AI powered website builder workflow that keeps Philippine brands fast, modern, and conversion-ready.
           </p>
         </div>
         <div className="flex flex-col items-center text-center p-6 sm:p-8 rounded-lg hover:bg-neutral-900/50 transition-all duration-300 border border-neutral-800">
           <div className="flex-shrink-0 flex h-16 w-16 p-3 bg-neutral-900 text-orange-500 justify-center items-center rounded-full border border-orange-500/20 mb-4">
             {features[1].icon}
           </div>
-          <h5 className="text-lg sm:text-xl font-semibold mb-2">AI Chatbot Setup</h5>
+          <h5 className="text-lg sm:text-xl font-semibold mb-2">AI Chatbot for Business Philippines</h5>
           <p className="text-sm sm:text-base text-neutral-400 leading-relaxed">
-            {features[1].description}
+            We deploy multilingual chatbots that qualify leads, book calls, and automate FAQs for businesses across the Philippines.
           </p>
         </div>
         <div className="flex flex-col items-center text-center p-6 sm:p-8 rounded-lg hover:bg-neutral-900/50 transition-all duration-300 border border-neutral-800">
@@ -39,16 +39,16 @@ const FeatureSection = () => {
           </div>
           <h5 className="text-lg sm:text-xl font-semibold mb-2">Website Revamp & UX Optimization</h5>
           <p className="text-sm sm:text-base text-neutral-400 leading-relaxed">
-            Modernize your existing site with AI-powered optimizations and improved user experience.
+            Modernize your existing site with AI automation for business playbooks, CRO experiments, and analytics.
           </p>
         </div>
         <div className="flex flex-col items-center text-center p-6 sm:p-8 rounded-lg hover:bg-neutral-900/50 transition-all duration-300 border border-neutral-800">
           <div className="flex-shrink-0 flex h-16 w-16 p-3 bg-neutral-900 text-orange-500 justify-center items-center rounded-full border border-orange-500/20 mb-4">
             {features[3].icon}
           </div>
-          <h5 className="text-lg sm:text-xl font-semibold mb-2">Maintenance & Automation Plans</h5>
+          <h5 className="text-lg sm:text-xl font-semibold mb-2">Hire Front-End Developer Philippines</h5>
           <p className="text-sm sm:text-base text-neutral-400 leading-relaxed">
-            Ongoing automated maintenance, updates, and improvements to keep your site running perfectly.
+            Retain our Manila-based front-end and AI automation squad for ongoing releases, analytics, and Taguig AI services on demand.
           </p>
         </div>
       </div>
