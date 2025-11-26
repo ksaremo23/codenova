@@ -1,0 +1,22 @@
+{
+  "name": "CodeNova AI",
+  "short_name": "CodeNovaAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "description": "AI agency in Taguig, Philippines delivering AI automation, chatbots, and web development.",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/og-image.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
