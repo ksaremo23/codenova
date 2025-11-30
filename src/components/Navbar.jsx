@@ -1,11 +1,13 @@
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,23 +31,35 @@ const Navbar = () => {
     }`}>
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto relative">
         <div className="flex justify-between items-center">
-          <div className="flex items-center flex-shrink-0">
+          <Link to="/" className="flex items-center flex-shrink-0">
             <img className="h-8 w-8 sm:h-10 sm:w-10 mr-2" src={logo} alt="CodeNova AI agency Philippines logo" />
             <span className="text-lg sm:text-xl tracking-tight font-semibold">
               Code<span className="text-orange-500">Nova</span> AI
             </span>
-          </div>
+          </Link>
           <ul className="hidden lg:flex ml-14 space-x-8 xl:space-x-12">
-            {navItems.map((item, index) => (
-              <li key={index}>
-                <a 
-                  href={item.href}
-                  className="text-neutral-300 hover:text-white transition-colors duration-200"
-                >
-                  {item.label}
-                </a>
-              </li>
-            ))}
+            {navItems.map((item, index) => {
+              const isActive = location.pathname === item.href || (item.href === '/blog' && location.pathname.startsWith('/blog'));
+              return (
+                <li key={index}>
+                  {item.href.startsWith('#') ? (
+                    <a 
+                      href={item.href}
+                      className={`transition-colors duration-200 ${isActive ? 'text-orange-500' : 'text-neutral-300 hover:text-white'}`}
+                    >
+                      {item.label}
+                    </a>
+                  ) : (
+                    <Link 
+                      to={item.href}
+                      className={`transition-colors duration-200 ${isActive ? 'text-orange-500' : 'text-neutral-300 hover:text-white'}`}
+                    >
+                      {item.label}
+                    </Link>
+                  )}
+                </li>
+              );
+            })}
           </ul>
           <div className="hidden lg:flex justify-center space-x-6 xl:space-x-8 items-center">
             <a 
@@ -76,13 +90,23 @@ const Navbar = () => {
             <ul className="w-full space-y-4 text-center">
               {navItems.map((item, index) => (
                 <li key={index} className="py-3">
-                  <a 
-                    href={item.href}
-                    onClick={closeNavbar}
-                    className="text-xl text-neutral-300 hover:text-white transition-colors duration-200"
-                  >
-                    {item.label}
-                  </a>
+                  {item.href.startsWith('#') ? (
+                    <a 
+                      href={item.href}
+                      onClick={closeNavbar}
+                      className="text-xl text-neutral-300 hover:text-white transition-colors duration-200"
+                    >
+                      {item.label}
+                    </a>
+                  ) : (
+                    <Link 
+                      to={item.href}
+                      onClick={closeNavbar}
+                      className="text-xl text-neutral-300 hover:text-white transition-colors duration-200"
+                    >
+                      {item.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

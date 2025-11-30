@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { resourcesLinks, platformLinks, communityLinks } from "../constants";
 import logo from "../assets/logo.png";
 
@@ -40,12 +41,21 @@ const Footer = () => {
           <ul className="space-y-2 sm:space-y-3">
             {communityLinks.map((link, index) => (
               <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-sm sm:text-base text-neutral-400 hover:text-white transition-colors duration-200"
-                >
-                  {link.text}
-                </a>
+                {link.href === "#" && link.text === "Blog" ? (
+                  <Link
+                    to="/blog"
+                    className="text-sm sm:text-base text-neutral-400 hover:text-white transition-colors duration-200"
+                  >
+                    {link.text}
+                  </Link>
+                ) : (
+                  <a
+                    href={link.href}
+                    className="text-sm sm:text-base text-neutral-400 hover:text-white transition-colors duration-200"
+                  >
+                    {link.text}
+                  </a>
+                )}
               </li>
             ))}
           </ul>

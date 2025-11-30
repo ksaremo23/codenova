@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { blogPosts } from "../constants";
 
 const BlogSection = () => {
@@ -19,7 +20,7 @@ const BlogSection = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto mt-10">
-        {blogPosts.map((post) => (
+        {blogPosts.slice(0, 3).map((post, index) => (
           <article
             key={post.title}
             className="border border-neutral-800 rounded-2xl bg-neutral-900/60 p-6 flex flex-col hover:border-orange-500/60 transition-all duration-300"
@@ -34,14 +35,23 @@ const BlogSection = () => {
                 </span>
               ))}
             </div>
-            <a
-              href={post.url}
+            <Link
+              to={`/blog/${post.title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`}
               className="mt-6 text-sm font-medium text-orange-400 hover:text-orange-300 transition-colors"
             >
               Read article →
-            </a>
+            </Link>
           </article>
         ))}
+      </div>
+      
+      <div className="text-center mt-10">
+        <Link
+          to="/blog"
+          className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-8 rounded-md hover:from-orange-600 hover:to-orange-900 transition-all duration-200 font-medium"
+        >
+          View All Blog Posts →
+        </Link>
       </div>
     </section>
   );
