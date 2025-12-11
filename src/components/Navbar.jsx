@@ -1,4 +1,4 @@
-import { Menu, X } from "lucide-react";
+import { Menu, X, Calendar } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
@@ -61,18 +61,15 @@ const Navbar = () => {
               );
             })}
           </ul>
-          <div className="hidden lg:flex justify-center space-x-6 xl:space-x-8 items-center">
-            <a 
-              href="#" 
-              className="py-2 px-4 border border-neutral-600 rounded-md hover:border-neutral-400 transition-colors duration-200"
-            >
-              Sign In
-            </a>
+          <div className="hidden lg:flex justify-center items-center">
             <a
-              href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-4 rounded-md hover:from-orange-600 hover:to-orange-900 transition-all duration-200"
+              href="https://calendly.com/ksaremo1/intro-call-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-4 rounded-md hover:from-orange-600 hover:to-orange-900 transition-all duration-200"
             >
-              Create an account
+              <Calendar size={18} />
+              Book a Call
             </a>
           </div>
           <div className="lg:hidden">
@@ -111,19 +108,15 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex flex-col space-y-4 mt-8 w-full max-w-xs">
-              <a 
-                href="#" 
-                onClick={closeNavbar}
-                className="py-3 px-4 border border-neutral-600 rounded-md text-center hover:border-neutral-400 transition-colors duration-200"
-              >
-                Sign In
-              </a>
               <a
-                href="#"
+                href="https://calendly.com/ksaremo1/intro-call-portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={closeNavbar}
-                className="py-3 px-4 rounded-md bg-gradient-to-r from-orange-500 to-orange-800 text-center hover:from-orange-600 hover:to-orange-900 transition-all duration-200"
+                className="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-md bg-gradient-to-r from-orange-500 to-orange-800 text-center hover:from-orange-600 hover:to-orange-900 transition-all duration-200"
               >
-                Create an account
+                <Calendar size={18} />
+                Book a Call
               </a>
             </div>
           </div>
