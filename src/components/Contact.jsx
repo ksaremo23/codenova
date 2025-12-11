@@ -180,14 +180,14 @@ const Contact = () => {
             Get a personalized video audit of your current website. We'll show you exactly what's possible with AI-powered development and how we can help you grow faster.
           </p>
           
-          {/* Calendly Embed - Replace with your actual Calendly URL */}
+          {/* Calendly Embed */}
           <div className="bg-neutral-800 rounded-lg p-8 text-center border border-neutral-700">
             <Sparkles className="mx-auto mb-4 text-orange-500" size={48} />
             <p className="text-neutral-300 mb-4 font-medium">
               Book your free video audit
             </p>
             <a
-              href="https://calendly.com/ksaremo1/30min"
+              href="https://calendly.com/ksaremo1/intro-call-portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-6 rounded-lg hover:from-orange-600 hover:to-orange-900 transition-all duration-200 font-medium"
@@ -195,15 +195,12 @@ const Contact = () => {
               <Calendar size={20} />
               Book Free Audit
             </a>
-            <p className="text-xs text-neutral-500 mt-4">
-              Replace the Calendly URL in Contact.jsx with your actual link
-            </p>
           </div>
 
           {/* Alternative: Direct Calendly embed */}
           {/* 
           <div className="calendly-inline-widget" 
-               data-url="https://calendly.com/your-username" 
+               data-url="https://calendly.com/ksaremo1/intro-call-portfolio" 
                style={{minWidth: '320px', height: '630px'}}>
           </div>
           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
